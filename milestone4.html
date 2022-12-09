@@ -83,10 +83,42 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1>Testing Protocol</h1><br>
-                    <center>
-                        <p>Hola.
+                        <p>1. What is your research question? It should be simple, falsifiable, and related to 
+                            the effectiveness of your design in solving your problem of study.<br>
+                            Can ELC’s calendar be improved by placing it above the fold and incorporating color?<br><br>
+                            
+                            What methodology will you use for testing and why?<br>
+                            To ensure accurate testing results, we want to use two methodologies for testing.<br><br>
+                            
+                            Our first method is practical, simple, and useful for testing the user experience of 
+                            existing eLC users. For a fixed period of time until we are satisfied with the results, we 
+                            will include a 1 question survey near the top of eLC's homepage. When a user logs in, they 
+                            will be able to provide their answer to our question "do you like the recent changes to eLC's 
+                            homepage and calendar?" Yes or no answer buttons will be provided but users will not be forced to participate. 
+                            They will also be able to close the survey popup window without providing an answer.<br><br>
+                            
+                            Our second method will observe the impact of our changes through two experimental groups consisting of random 
+                            high school seniors or recent high school graduates (participants that have never used eLC before). Students in both groups 
+                            will be asked to navigate through eLC to find course information using the calendar and other UI. Group 1 will use the current 
+                            version of eLC and Group 2 will use our new prototype of eLC. After completing the assigned task, both groups will complete 
+                            a short survey to rate their experience, ease of use, and task completion satisfaction. Procedure (2 sample T-Test):<br><br>
+                            - Take a random sample of 100 students (p1)<br>
+                            &nbsp - Each student uses old elc calendar for at least 30 seconds when they use elc<br>
+                            &nbsp - Students rate the calendar 1 or 0 (satisfactory = 1, unsatisfactory = 0)<br>
+                            - Take another random sample of 100 students (p2)<br>
+                            &nbsp - Each student uses new elc calendar for at least 30 seconds when they use elc<br>
+                            &nbsp - Students rate the calendar 1 or 0 (satisfactory = 1, unsatisfactory = 0)<br><br>
+                            
+                            - Hypotheses<br>
+                            &nbsp - Null: p1 - p2 = 0<br>
+                            &nbsp - Alternative: p1 - p2 < 0<br>
+                            &nbsp - P1 = tally of satisfactory / total students in p1<br>
+                            &nbsp - P2 = tally of satisfactory / total students in p2<br><br>
+                            
+                            - Calculate the test statistic and find the p-value. Compare p-value against an alpha of 0.05.<br>
+                            &nbsp - We expect the p-value to be less than 0.05, which will reject the null hypothesis and conclude that the new UI is better.<br><br>
+                            
                         </p>
-                    </center>
                 </div>
             </div>
         </div>
